@@ -1,0 +1,38 @@
+.home h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.article-card {
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.article-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.article-card h2 {
+  margin: 0 0 15px 0;
+  font-size: 24px;
+}
+
+.summary {
+  color: rgba(0, 0, 0, 0.65);
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.article-meta {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.article-stats {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
