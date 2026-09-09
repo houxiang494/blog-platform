@@ -1,0 +1,27 @@
+# Project specific
+.env
+.env.local
+
+# Backend
+backend/target/
+backend/pom.xml.tag
+backend/.idea/
+backend/*.iml
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.idea/
+frontend/dist-ssr/
+frontend/*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
